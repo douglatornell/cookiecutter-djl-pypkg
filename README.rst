@@ -12,17 +12,16 @@ This is a `cookiecutter`_ for my personal project Python packages.
 
 To create a new package skeleton:
 
-1. Activate the ``cookiecutter`` conda environment:
+1. Activate the ``cookiecutter`` conda environment::
 
      $ conda activate cookiecutter
 
-   or create it, then activate it:
+   or create it, then activate it::
 
      $ conda env create -f cookiecutter-djl-pypkg/env/environment.yaml
-
      $ conda activate cookiecutter
 
-2. Run this cookie cutter, and answer the prompts:
+2. Run this cookie cutter, and answer the prompts::
 
      (cookiecutter)$ cookiecutter cookiecutter-djl-pypkg/
 
