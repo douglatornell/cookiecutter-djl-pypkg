@@ -1,0 +1,12 @@
+{
+  "full_name": "Doug Latornell",
+  "email": "djl@douglatornell",
+  "project_name": "Another DJL Python Package",
+  "package_name": "{{ cookiecutter.project_name.replace(' ', '-') }}",
+  "package_slug": "{{ cookiecutter.package_name.lower().replace(' ', '_').replace('-', '_') }}",
+  "project_short_description": "Short description of this Python package.",
+  "project_creation_year": "{% now 'local', '%Y' %}",
+  "version": "{% now 'local', '%y' %}.1.dev0",
+  "min_python_version": "3.6",
+  "dev_python_version": "3.7"
+}

@@ -1,0 +1,5 @@
+# Python packages and versions used in development environment
+#
+# Create/update this file with:
+#   ({{ cookiecutter.package_name.lower() }})$ pip freeze >> env/requirements.txt
+
