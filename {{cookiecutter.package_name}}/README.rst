@@ -8,6 +8,18 @@
 .. image:: https://img.shields.io/badge/python-{{ cookiecutter.min_python_version }}+-blue.svg
     :target: https://docs.python.org/{{ cookiecutter.dev_python_version }}/
     :alt: Python Version
+.. image:: https://img.shields.io/badge/version%20control-hg-blue.svg
+    :target: https://bitbucket.org/{{ cookiecutter.bitbucket_username }}/{{ cookiecutter.bitbucket_repo_name }}/
+    :alt: Mercurial on Bitbucket
+.. image:: https://img.shields.io/badge/code%20style-black-000000.svg
+    :target: https://black.readthedocs.io/en/stable/
+    :alt: The uncompromising Python code formatter
+.. image:: https://readthedocs.org/projects/{{ cookiecutter.package_name.lower() }}/badge/?version=latest
+    :target: https://{{ cookiecutter.package_name.lower() }}.readthedocs.io/en/latest/
+    :alt: Documentation Status
+.. image:: https://img.shields.io/bitbucket/issues/{{ cookiecutter.bitbucket_username }}/{{ cookiecutter.bitbucket_repo_name }}.svg
+    :target: https://bitbucket.org/{{ cookiecutter.bitbucket_username }}/{{ cookiecutter.bitbucket_repo_name }}/issues?status=new&status=open
+    :alt: Issue Tracker
 
 {{ cookiecutter.project_short_description }}
 

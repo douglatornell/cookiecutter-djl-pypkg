@@ -6,7 +6,7 @@
 #
 #   $ conda env create -f {{ cookiecutter.package_name }}/env/environment-dev.yaml
 #   $ source activate {{ cookiecutter.package_name.lower() }}
-#   ({{ cookiecutter.package_name.lower() }})$ pip install --editable {{ cookiecutter.package_name }}
+#   ({{ cookiecutter.conda_dev_env_name }})$ pip install --editable {{ cookiecutter.package_name }}
 #
 # The environment will also include all of the tools used to develop,
 # test, and document the {{ cookiecutter.package_name }} package.
@@ -15,7 +15,7 @@
 # packages installed in the environment and their versions used in
 # recent development.
 
-name: {{ cookiecutter.package_name.lower() }}
+name: {{ cookiecutter.conda_dev_env_name }}
 
 channels:
   - conda-forge

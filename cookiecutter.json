@@ -1,9 +1,12 @@
 {
   "full_name": "Doug Latornell",
   "email": "djl@douglatornell",
+  "bitbucket_username": "douglatornell",
   "project_name": "Another DJL Python Package",
   "package_name": "{{ cookiecutter.project_name.replace(' ', '-') }}",
+  "bitbucket_repo_name": "{{ cookiecutter.package_name.lower() }}",
   "package_slug": "{{ cookiecutter.package_name.lower().replace(' ', '_').replace('-', '_') }}",
+  "conda_dev_env_name": "{{ cookiecutter.package_slug }}",
   "project_short_description": "Short description of this Python package.",
   "project_creation_year": "{% now 'local', '%Y' %}",
   "version": "{% now 'local', '%y' %}.1.dev0",
