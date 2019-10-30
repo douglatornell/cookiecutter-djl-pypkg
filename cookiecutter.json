@@ -1,6 +1,6 @@
 {
   "full_name": "Doug Latornell",
-  "email": "djl@douglatornell",
+  "email": "djl@douglatornell.ca",
   "bitbucket_username": "douglatornell",
   "project_name": "Another DJL Python Package",
   "package_name": "{{ cookiecutter.project_name.replace(' ', '-') }}",
