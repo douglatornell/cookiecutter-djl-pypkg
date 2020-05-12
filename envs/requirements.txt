@@ -3,6 +3,9 @@
 # This list is intended to be for reference only.
 # Use the conda environment description file (environment.yaml)
 # to create an isolated development environment.
+#
+# Create/update this file with:
+#   (cookiecutter)$ python3 -m pip list --format=freeze --path $CONDA_PREFIX/lib/python3*/site-packages >> requirements.txt
 
 arrow==0.15.3
 asn1crypto==1.2.0
