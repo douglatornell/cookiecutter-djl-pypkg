@@ -25,11 +25,11 @@ To create a new package skeleton:
 
      (cookiecutter)$ cookiecutter cookiecutter-djl-pypkg/
 
-   or from `its repository`_ on Bitbucket::
+   or from `its repository`_ on GitHub::
 
-     (cookiecutter)$ cookiecutter git+ssh://git@bitbucket.org:douglatornell/cookiecutter-djl-pypkg.git
+     (cookiecutter)$ cookiecutter git+ssh://git@github.com:douglatornell/cookiecutter-djl-pypkg.git
 
-   .. _its repository: https://bitbucket.org/douglatornell/cookiecutter-djl-pypkg/
+   .. _its repository: https://github.com/douglatornell/cookiecutter-djl-pypkg
 
 
 License
@@ -39,7 +39,7 @@ License
     :target: https://www.apache.org/licenses/LICENSE-2.0
     :alt: Licensed under the Apache License, Version 2.0
 
-This Python package cookiecutter is copyright 2019 by Doug Latornell.
+This Python package cookiecutter is copyright 2019-2020 by Doug Latornell.
 
 It is licensed under the Apache License, Version 2.0.
 https://www.apache.org/licenses/LICENSE-2.0.
