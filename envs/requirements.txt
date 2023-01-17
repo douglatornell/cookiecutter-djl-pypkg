@@ -16,7 +16,7 @@ chardet==3.0.4
 Click==7.0
 cookiecutter==2.1.1
 cryptography==3.3.2
-future==0.18.2
+future==0.18.3
 idna==2.8
 Jinja2==2.11.3
 jinja2-time==0.2.0
